@@ -1,0 +1,3 @@
+const menuButton=document.querySelector('.menu');const navigation=document.querySelector('#navigation');if(menuButton&&navigation){menuButton.addEventListener('click',()=>{const open=navigation.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open))});navigation.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navigation.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}))}
+
+const selectionBadge=document.querySelector('#basket-count');if(selectionBadge){try{const saved=JSON.parse(localStorage.getItem('bodeguita-cart-v2')||'[]');selectionBadge.textContent=saved.reduce((sum,item)=>sum+(Number(item.qty)||0),0)}catch{selectionBadge.textContent='0'}}

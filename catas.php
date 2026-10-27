@@ -1,0 +1,5 @@
+<?php $paginaActiva='catas';$tituloPagina='Catas y encuentros';require __DIR__.'/partials/header.php'; ?>
+<section class="subpage-hero tasting-hero"><p class="eyebrow-light">03 · NOS ENCONTRAMOS</p><h1>Una copa compartida<br>se disfruta <em>distinto.</em></h1><p>Conocemos etiquetas, bodegas e historias alrededor de la mesa.</p></section>
+<section class="tasting-page"><div class="tasting-seal" aria-hidden="true"><span>BRINDAR</span><b>✳</b><span>Y DESCUBRIR</span></div><div><p class="eyebrow">CATAS EN LA BODEGUITA</p><h2>Vinos nuevos,<br>mesa <em>compartida.</em></h2><p>De vez en cuando abrimos botellas, conocemos bodegas y compartimos una noche distinta. Las fechas y cupos se anuncian directamente en la tienda.</p><a class="text-button" href="visitanos.php">Consultar próximas fechas ↗</a></div><img src="public/media/estanterias.png" alt="Selección de botellas en la tienda"></section>
+<section class="quote-band quote-sage"><span>✳</span><p>La próxima historia puede ser la tuya.</p><small>TE ESPERAMOS EN MUNRO</small></section>
+<?php require __DIR__.'/partials/footer.php'; ?>

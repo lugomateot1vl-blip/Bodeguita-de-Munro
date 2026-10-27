@@ -1,0 +1,11 @@
+<?php
+$paginaActiva='inicio';$tituloPagina='Inicio';require __DIR__.'/partials/header.php';
+?>
+<section class="home-hero">
+  <div class="hero-decoration decoration-one" aria-hidden="true"></div><div class="hero-decoration decoration-two" aria-hidden="true"></div>
+  <div class="hero-copy"><p class="hero-eyebrow"><span>✳</span> UN GUSTO TENERTE POR ACÁ</p><h1>Bienvenidos a<br><em>La Bodeguita</em><br><span>de Munro.</span></h1><p class="hero-lead">Vinos, bebidas y buenos encuentros. Un lugar de barrio para descubrir algo rico, elegir un regalo o quedarse un ratito más.</p><a class="hero-button" href="vinos.php">Explorar la selección <span>↗</span></a><p class="hero-footnote">Una buena botella siempre encuentra su momento.</p></div>
+  <div class="hero-ornament" aria-hidden="true"><span>VINO</span><i>✳</i><span>AMIGOS</span><i>✳</i><span>SOBREMESA</span></div>
+</section>
+<section class="home-intro"><p>De nuestro barrio, para tu mesa.</p><span>Elegir un vino también puede ser una linda parte del encuentro.</span></section>
+<section class="home-categories"><a href="vinos.php" class="home-card card-wine"><span class="card-number">01 / LA SELECCIÓN</span><span class="card-symbol" aria-hidden="true">◉</span><h2>Vinos y<br>bebidas</h2><p>Etiquetas para cada gusto y cada ocasión.</p><span class="card-link">Ver la tienda ↗</span></a><a href="bodeguita.php" class="home-card card-story"><span class="card-number">02 / NUESTRA CASA</span><span class="card-symbol" aria-hidden="true">✳</span><h2>La<br>Bodeguita</h2><p>Un lugar de barrio que se disfruta sin apuro.</p><span class="card-link">Conocé el lugar ↗</span></a><a href="catas.php" class="home-card card-tasting"><span class="card-number">03 / NOS ENCONTRAMOS</span><span class="card-symbol" aria-hidden="true">◌</span><h2>Catas y<br>encuentros</h2><p>Una copa, una historia y algo nuevo para probar.</p><span class="card-link">Ver las catas ↗</span></a><a href="visitanos.php" class="home-card card-visit"><span class="card-number">04 / TE ESPERAMOS</span><span class="card-symbol" aria-hidden="true">⌖</span><h2>Cómo<br>llegar</h2><p>Estamos en Munro. Pasá a saludarnos.</p><span class="card-link">Encontranos ↗</span></a></section>
+<?php require __DIR__.'/partials/footer.php'; ?>

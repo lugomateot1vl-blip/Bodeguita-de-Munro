@@ -1,0 +1,4 @@
+<?php $paginaActiva='visita';$tituloPagina='Cómo llegar';require __DIR__.'/partials/header.php'; ?>
+<section class="subpage-hero visit-hero"><p class="eyebrow-light">04 · VENÍ A CONOCERNOS</p><h1>Tu próxima copa<br>puede empezar <em>acá.</em></h1><p>La Bodeguita de Munro · Buenos Aires</p></section>
+<section class="visit-page"><div class="visit-image" role="img" aria-label="Frente de La Bodeguita de Munro"></div><div class="visit-details"><p class="eyebrow">PASÁ A SALUDARNOS</p><h2>La puerta está<br><em>abierta.</em></h2><p>Estamos en Munro, provincia de Buenos Aires. Consultá el mapa para ubicar la tienda y planear tu visita.</p><a class="map-button" href="https://maps.google.com/?q=La+Bodeguita+de+Munro" target="_blank" rel="noopener">Abrir en Google Maps ↗</a><p class="visit-small">¿Venís por una etiqueta en particular? Consultanos su disponibilidad antes de acercarte.</p></div></section>
+<?php require __DIR__.'/partials/footer.php'; ?>
