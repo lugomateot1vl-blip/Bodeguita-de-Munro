@@ -1,46 +1,51 @@
 # La Bodeguita de Munro
 
-Sitio web adaptable para presentar una vinoteca de barrio, explorar etiquetas y enviar pedidos para confirmación. La tienda cuenta con un panel privado para administrar bebidas, stock y estados de pedido.
+Sitio PHP para una vinoteca de barrio: catálogo de bebidas, selección de productos, recepción de pedidos y administración del inventario.
 
-## Tecnologías
+## Requisitos
 
-- PHP 8.2 y PDO
-- MySQL / MariaDB
-- HTML, CSS y JavaScript sin dependencias de compilación
+- XAMPP con Apache y MySQL/MariaDB.
+- PHP 8.1 o superior, con PDO MySQL habilitado.
 
-## Instalación local con XAMPP
+## Instalación local
 
-1. Copiá esta carpeta dentro de `C:\xampp\htdocs` o configurá Apache para servir la carpeta `public/`.
+1. Colocá esta carpeta en `C:\xampp\htdocs\Bodeguita De Munro`.
 2. Iniciá Apache y MySQL desde XAMPP.
-3. Importá `database/bodeguita_munro.sql` en phpMyAdmin. El archivo crea la base `bodeguita_munro` y agrega bebidas de ejemplo para mostrar el catálogo. Reemplazá esos nombres, descripciones, precios y existencias por el inventario real antes de publicar.
-4. Revisá las credenciales MySQL en `app/config/Conexion.php` o definí `BODEGUITA_DB_HOST`, `BODEGUITA_DB_NAME`, `BODEGUITA_DB_USER` y `BODEGUITA_DB_PASS` en el entorno de PHP.
-5. Abrí `http://localhost/Bodeguita%20De%20Munro/public/` (o la ruta que uses en `htdocs`).
-6. Entrá a `public/admin.php`. En la primera visita, creá un usuario y una contraseña privada de al menos 10 caracteres.
+3. Importá `database/bodeguita_munro.sql` con phpMyAdmin. Crea la base `bodeguita_munro` y agrega bebidas de ejemplo.
+4. Si tu usuario de MySQL no es el predeterminado de XAMPP, ajustá `app/config/Conexion.php` o configurá las variables `BODEGUITA_DB_HOST`, `BODEGUITA_DB_NAME`, `BODEGUITA_DB_USER` y `BODEGUITA_DB_PASS`.
+5. Visitá `http://localhost/Bodeguita%20De%20Munro/`.
+6. El enlace de administración abre `admin.php`, que lleva al panel de `public/admin.php`. En la primera visita, creá un usuario y una contraseña privada de al menos 10 caracteres.
 
-## Recorridos
+Los productos, precios y existencias iniciales son de muestra; actualizalos desde el panel antes de usar el sitio con inventario real.
 
-- **Tienda:** categorías y búsqueda, carrito que se conserva en el navegador, formulario de pedido y validación de stock al confirmar la solicitud.
-- **Administración:** alta y edición de bebidas, precio, inventario, variedad, foto por URL, visibilidad y etiquetas recomendadas; revisión de pedidos y actualización de su estado.
-- **Catas:** sección de presentación para consultar próximas fechas. No se publican fechas inventadas.
+## Apartados del sitio
 
-El checkout registra una solicitud pendiente y descuenta las unidades reservadas del stock. La tienda debe confirmar disponibilidad, medio de pago y entrega con la persona que realizó el pedido. No se integra una pasarela de pagos ni se cobra en línea.
+- `index.php`: bienvenida y navegación a los apartados.
+- `vinos.php`: catálogo, filtros, búsqueda y selección de productos.
+- `bodeguita.php`: presentación del local.
+- `catas.php`: información sobre catas y encuentros.
+- `visitanos.php`: ubicación y acceso al mapa.
+- `pedido.php`: validación de stock y registro de pedidos.
+- `public/admin.php`: acceso y panel para administrar bebidas y pedidos.
+
+El carrito se conserva en el navegador. Al confirmar, el servidor valida el stock y registra una solicitud pendiente. El comercio coordina pago y entrega con el cliente; no se cobra en línea ni se integra una pasarela de pagos.
 
 ## Organización
 
 ```text
 app/
-  config/Conexion.php       Conexión PDO centralizada
-  dao/                      Lectura y escritura de bebidas y pedidos
-  helpers/funciones.php     Sesión, permisos, CSRF y formato de precios
+  config/Conexion.php       Conexión PDO
+  dao/                      Consultas de bebidas y pedidos
+  helpers/funciones.php     Escape HTML, sesión, CSRF y formato de precios
 database/
   bodeguita_munro.sql       Esquema y catálogo de muestra
+partials/                   Encabezado y pie compartidos
 public/
-  index.php                 Tienda y catálogo
-  pedido.php                Validación y alta de solicitudes
-  admin.php                 Acceso y panel de gestión
-  css/                      Estilos de tienda y administración
-  js/                       Filtros, carrito y formularios
-  media/                    Fotografías de referencia del local
+  admin.php                 Administración
+  css/                      Estilos del sitio
+  js/                       Interacciones y carrito
+  media/                    Imágenes del local
+*.php                       Apartados públicos del sitio
 ```
 
-El proyecto usa imágenes de referencia compartidas para inspirar la estética y mostrar el local. Conservá el permiso de uso correspondiente si las publicás en un sitio abierto.
+Las imágenes de referencia se usan para inspirar la estética y mostrar el local. Confirmá los permisos de uso antes de publicar el sitio abiertamente.
