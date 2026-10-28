@@ -1,0 +1,105 @@
+:root[data-theme="dark"]{color-scheme:dark;--cream:#332d23;--paper:#211d1a;--ink:#f4ead8;--wine:#c9755b;--wine-dark:#f1dfbf;--olive:#a9bb91;--muted:#d0c2aa;--line:#554a3c;--gold:#e8c66c;--orange:#ec896a}
+:root[data-theme="dark"] body{background:var(--paper);color:var(--ink)}
+:root[data-theme="dark"] .announcement{background:#2a171b;color:#faecd5}
+:root[data-theme="dark"] .site-header{background:#211d1aeF;border-color:#4b4035}
+:root[data-theme="dark"] .primary-nav a{color:#eadfc9}
+:root[data-theme="dark"] .primary-nav a:hover,:root[data-theme="dark"] .primary-nav a[aria-current=page]{color:#f29a78}
+:root[data-theme="dark"] .wordmark{color:#f2dfc0}
+:root[data-theme="dark"] .home-hero,:root[data-theme="dark"] .catalog-hero,:root[data-theme="dark"] .page-hero{background:#30271f}
+:root[data-theme="dark"] .hero-lead,:root[data-theme="dark"] .page-hero>p:last-child{color:#e2d4bd}
+:root[data-theme="dark"] .quick-find{background:#3b3023;border-color:#5a4933}
+:root[data-theme="dark"] .quick-search{background:#28221d;border-color:#62513a}
+:root[data-theme="dark"] .quick-search>label,:root[data-theme="dark"] .quick-search input{color:#f3e8d4}
+:root[data-theme="dark"] .quick-search input{background:#1e1a17;border-color:#635443}
+:root[data-theme="dark"] .category-section,:root[data-theme="dark"] .catalog-main{background:#211d1a}
+:root[data-theme="dark"] .category-red{background:#49302b}
+:root[data-theme="dark"] .category-yellow{background:#49402a}
+:root[data-theme="dark"] .category-green{background:#303a2c}
+:root[data-theme="dark"] .category-cream{background:#40342c}
+:root[data-theme="dark"] .category-card{border-color:#65533c;color:#f2e2c4}
+:root[data-theme="dark"] .category-card small{color:#e0d2bd}
+:root[data-theme="dark"] .category-card>b,:root[data-theme="dark"] .text-link{color:#f1bd79}
+:root[data-theme="dark"] .category-number{color:#3b2c23;background:#fff1d7}
+:root[data-theme="dark"] .featured-section{background:#302a24}
+:root[data-theme="dark"] .featured-card,:root[data-theme="dark"] .catalog-card{background:#29231f;border-color:#55483a}
+:root[data-theme="dark"] .featured-copy>p,:root[data-theme="dark"] .wine-maker,:root[data-theme="dark"] .wine-description{color:#d1c3ad}
+:root[data-theme="dark"] .featured-copy h3,:root[data-theme="dark"] .catalog-card-copy h3{color:#f1dfbf}
+:root[data-theme="dark"] .story-band{background:#302b25}
+:root[data-theme="dark"] .story-copy>p:not(.eyebrow),:root[data-theme="dark"] .tasting-copy>p:not(.eyebrow),:root[data-theme="dark"] .visit-copy>p:not(.eyebrow){color:#e0d3bf}
+:root[data-theme="dark"] .tasting-band,:root[data-theme="dark"] .tasting-editorial,:root[data-theme="dark"] .editorial-story,:root[data-theme="dark"] .visit-editorial{background:#30382c}
+:root[data-theme="dark"] .editorial-copy>p:not(.eyebrow),:root[data-theme="dark"] .visit-copy>p:not(.eyebrow),:root[data-theme="dark"] .tasting-editorial-copy>p:not(.eyebrow){color:#e0d9c9}
+:root[data-theme="dark"] .visit-strip{background:#463923;color:#f2e5ce}
+:root[data-theme="dark"] .visit-strip>div>p:last-child{color:#e4d8c4}
+:root[data-theme="dark"] .site-footer{background:#171412;border-color:#51463a}
+:root[data-theme="dark"] .pagina-cuenta{background:#211d1a}
+:root[data-theme="dark"] .introduccion-cuenta h1,:root[data-theme="dark"] .tarjeta-cuenta h2{color:#f1dfbf}
+:root[data-theme="dark"] .introduccion-cuenta .eyebrow{color:#efac82}
+:root[data-theme="dark"] .introduccion-cuenta>p:not(.eyebrow),:root[data-theme="dark"] .texto-cuenta,:root[data-theme="dark"] .nota-cuenta{color:#dfd2bd}
+:root[data-theme="dark"] .tarjeta-cuenta{background:#29231f;border-color:#55483a}
+:root[data-theme="dark"] .navegacion-cuenta{border-color:#55483a}
+:root[data-theme="dark"] .navegacion-cuenta a{color:#c6b9a3}
+:root[data-theme="dark"] .navegacion-cuenta a.active{color:#f2ad8e}
+:root[data-theme="dark"] .formulario-cuenta>label:not(.confirmacion-edad),:root[data-theme="dark"] .confirmacion-edad{color:#eadfc9}
+:root[data-theme="dark"] .formulario-cuenta input:not([type=checkbox]){background:#1c1916;border-color:#5c4c3d;color:#f4ead8}
+:root[data-theme="dark"] .datos-cuenta{border-color:#55483a;color:#dfd2bd}
+:root[data-theme="dark"] .aviso-cuenta{background:#492923;border-color:#8c5145;color:#ffe1d4}
+:root[data-theme="dark"] .enlace-cuenta{background:#332b24;border-color:#65543d;color:#f0dfbe}
+:root[data-theme="dark"] .enlace-cuenta:hover{background:#493b2d;border-color:#8a704c}
+:root[data-theme="dark"] .catalog-controls{border-color:#55483a}
+:root[data-theme="dark"] .filter{background:#352d26;border-color:#665641;color:#f1e5d0}
+:root[data-theme="dark"] .filter.active{background:#934839;border-color:#c47a61;color:#fff7e7}
+:root[data-theme="dark"] .search-box{background:#28221d;border-color:#62513f;color:#efc176}
+:root[data-theme="dark"] .search-box input{background:transparent;color:#f4ead8}
+:root[data-theme="dark"] .search-box input::placeholder{color:#c6b9a3}
+:root[data-theme="dark"] .catalog-note,:root[data-theme="dark"] .cart-disclaimer,:root[data-theme="dark"] .order-warning{background:#383027;color:#e7d9c2}
+:root[data-theme="dark"] .wine-stock{color:#bfd39e}
+:root[data-theme="dark"] .stock-dot{background:#93b871}
+:root[data-theme="dark"] .cart-panel,:root[data-theme="dark"] .checkout-modal{background:#27221e;color:#f1e7d5}
+:root[data-theme="dark"] .cart-header,:root[data-theme="dark"] .cart-footer,:root[data-theme="dark"] .cart-line,:root[data-theme="dark"] .catalog-buy{border-color:#504437}
+:root[data-theme="dark"] .cart-empty,:root[data-theme="dark"] .cart-line small,:root[data-theme="dark"] .checkout-modal>p:not(.eyebrow),:root[data-theme="dark"] .checkout-modal label{color:#dfd2bd}
+:root[data-theme="dark"] .cart-line strong,:root[data-theme="dark"] .checkout-modal h2,:root[data-theme="dark"] .close-cart,:root[data-theme="dark"] .close-checkout{color:#f1dfbf}
+:root[data-theme="dark"] .checkout-modal input,:root[data-theme="dark"] .checkout-modal select,:root[data-theme="dark"] .checkout-modal textarea{background:#1c1916;border-color:#5c4c3d;color:#f4ead8}
+:root[data-theme="dark"] .quote-band{background:#512731}
+:root[data-theme="dark"] .quote-gold,:root[data-theme="dark"] .visit-bottom{background:#4a3b28;color:#f3e4c9}
+:root[data-theme="dark"] .result-page{background:#211d1a}
+:root[data-theme="dark"] .result-card{background:#29231f;border-color:#55483a}
+:root[data-theme="dark"] .result-card>p:not(.eyebrow){color:#dfd2bd}
+:root[data-theme="dark"] .button-outline{color:#f2dfbf;border-color:#d2a267}
+@media(max-width:700px){.primary-nav.open{background:#fffaf0}:root[data-theme="dark"] .primary-nav.open{background:#211d1a}}
+.theme-toggle{width:40px;height:40px;min-width:40px;padding:0;border:1px solid #cdbf9f;border-radius:50%;background:#fff8e8;color:#553a2c;font-size:0;box-shadow:0 2px 0 #d8c8a8;transition:transform .22s,background .2s,border-color .2s,color .2s,box-shadow .2s}
+.theme-toggle:focus-visible{outline:3px solid #c2543c;outline-offset:3px}
+.header-actions{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex:0 0 auto;margin-left:auto}
+.site-header{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);padding-right:4.5%;padding-left:4.5%}
+.primary-nav{justify-self:center}
+.header-actions{justify-self:end;margin-left:0}
+.theme-toggle:hover{transform:translateY(-2px) rotate(-8deg);background:#f4e5b8;box-shadow:0 4px 0 #d8c8a8}
+.theme-toggle-icon{display:grid;place-items:center;width:100%;height:100%;font-size:21px;line-height:1;transition:transform .25s}
+.theme-toggle[aria-pressed="true"] .theme-toggle-icon{transform:rotate(25deg)}
+:root[data-theme="dark"] .theme-toggle{background:#40352b;border-color:#756044;color:#f5dfb7;box-shadow:0 2px 0 #251d18}
+:root[data-theme="dark"] .theme-toggle:hover{background:#514333;box-shadow:0 4px 0 #251d18}
+@media(max-width:1050px) and (min-width:701px){.site-header{grid-template-columns:auto minmax(0,1fr) auto;gap:14px;padding-right:3.5%;padding-left:3.5%}.primary-nav{gap:clamp(12px,1.8vw,20px)}}
+@media(max-width:700px){.site-header{display:flex;gap:8px;padding-right:4%;padding-left:4%}.header-actions{gap:8px;margin-left:auto}.theme-toggle{width:36px;height:36px;min-width:36px}.theme-toggle-icon{font-size:19px}}
+
+/* Contraste reforzado para los elementos que usan colores fijos del tema claro. */
+:root[data-theme="dark"] .quick-cata{background:#47252b;color:#fff2dc}
+:root[data-theme="dark"] .quick-cata strong{color:#fff2dc}
+:root[data-theme="dark"] .hero-points,:root[data-theme="dark"] .section-heading>p,:root[data-theme="dark"] .catalog-heading>p{color:#e1d5c2}
+:root[data-theme="dark"] .selection-link{background:#974638;color:#fff8e8;box-shadow:0 3px 0 #592b2d}
+:root[data-theme="dark"] .selection-link b{background:#f2d78f;color:#34231f}
+:root[data-theme="dark"] .button-wine,:root[data-theme="dark"] .quick-search button,:root[data-theme="dark"] .add-to-cart{background:#873b37;color:#fff9e9}
+:root[data-theme="dark"] .button-wine:hover,:root[data-theme="dark"] .add-to-cart:hover{background:#a94c3d}
+:root[data-theme="dark"] .button-wine{box-shadow:0 4px 0 #4c2529}
+:root[data-theme="dark"] .button-light{background:#efcf7a;color:#30241c}
+:root[data-theme="dark"] .featured-label,:root[data-theme="dark"] .product-type{background:#fff0d2;color:#392820}
+:root[data-theme="dark"] .featured-badge{background:#71323a;color:#fff5df}
+:root[data-theme="dark"] .featured-copy a,:root[data-theme="dark"] .featured-copy strong,:root[data-theme="dark"] .catalog-buy strong{color:#f0b28f}
+:root[data-theme="dark"] .catalog-empty{color:#e7d9c5}
+:root[data-theme="dark"] .visit-bottom a{color:#ffe3a5}
+:root[data-theme="dark"] .photo-tag{background:#38242a;color:#fff0d2}
+:root[data-theme="dark"] .quick-search>div>span,:root[data-theme="dark"] .quick-search button b{color:#f3ce79}
+:root[data-theme="dark"] .add-to-cart:disabled{background:#514940;color:#e4d9c8}
+:root[data-theme="dark"] .visit-copy .visit-small{color:#ded0b9!important}
+:root[data-theme="dark"] .checkout-modal input::placeholder,:root[data-theme="dark"] .checkout-modal textarea::placeholder{color:#bcae98;opacity:1}
+:root[data-theme="dark"] .error-list{color:#ffaaa0}
+:root[data-theme="dark"] .result-icon{color:#f2bf72}
+:root[data-theme="dark"] .cart-total strong{color:#f0b28f}

@@ -1,0 +1,19 @@
+/* Jerarquía y lectura de las leyendas de portada. */
+.wordmark{font-size:22px}
+.wordmark small{font-size:10px}
+.hero-points{gap:14px 24px;font-size:11px}
+.hero-bottom-note{left:0;right:0;width:100%;justify-content:center;gap:clamp(16px,3.2vw,42px);min-height:52px;padding:0 20px;font-size:10px;letter-spacing:.13em}
+.hero-bottom-note span{font-size:12px}
+.photo-note{bottom:74px}
+:root[data-theme="dark"] .hero-bottom-note{background:#572832;color:#fff1d8}
+@media(max-width:700px){
+  .wordmark{font-size:17px}
+  .wordmark small{font-size:7.5px}
+  .hero-points{gap:11px 17px;margin-top:27px;font-size:10px}
+  .hero-bottom-note{min-height:48px;flex-wrap:wrap;gap:7px 12px;padding:9px 10px;font-size:8px;letter-spacing:.1em}
+  .photo-note{bottom:68px}
+}
+@media(max-width:380px){
+  .hero-points{gap:8px 11px;font-size:9px}
+  .hero-bottom-note{gap:5px 8px;padding:8px;font-size:7px;letter-spacing:.08em}
+}

@@ -5,11 +5,13 @@ final class BebidaDAO
 {
     public function __construct(private PDO $db) {}
 
+    /** Lista solo las bebidas publicadas para la tienda. */
     public function listarActivas(): array
     {
         return $this->db->query('SELECT * FROM bebidas WHERE activa = 1 ORDER BY destacada DESC, nombre')->fetchAll();
     }
 
+    /** Devuelve todo el inventario para la administración. */
     public function listarTodas(): array
     {
         return $this->db->query('SELECT * FROM bebidas ORDER BY creado_en DESC')->fetchAll();

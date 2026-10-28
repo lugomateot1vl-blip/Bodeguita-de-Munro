@@ -1,0 +1,26 @@
+FOTOGRAFÍAS DE BEBIDAS — LA BODEGUITA DE MUNRO
+
+Las fotos de esta carpeta son ilustrativas. No representan la etiqueta exacta de los productos cargados en el catálogo. Cuando se cargue una foto propia del producto desde Administración, esa imagen se muestra en su lugar.
+
+Las imágenes se descargaron desde Unsplash y se guardan localmente para que el sitio no dependa de que un servicio externo esté disponible. Unsplash permite usar sus fotografías en sitios comerciales según su licencia: https://unsplash.com/license
+
+vino-tinto.jpg — Egor Myznik, “A bottle of wine sitting on top of a table”
+https://unsplash.com/photos/a-bottle-of-wine-sitting-on-top-of-a-table-MdjaHUTTa6Q
+
+vino-blanco.jpg — Brett Jordan, “Pinot grigio bottle beside glass”
+https://unsplash.com/photos/pinot-grigio-bottle-beside-glass-RBZJ7LBbrcA
+
+vino-rosado.jpg — Raissa Lara Lütolf (-Fasel), “A bottle of wine sitting on top of a table”
+https://unsplash.com/photos/a-bottle-of-wine-sitting-on-top-of-a-table-qtet2sP1KsE
+
+vino-espumante.jpg — Eugenia Pan'kiv, “A bottle of champagne in a glass”
+https://unsplash.com/photos/a-bottle-of-champagne-in-a-glass-TTpBmO6JDqc
+
+vino-botellas.jpg — Jeff Siepman, “Bottles on rack”
+https://unsplash.com/photos/bottles-on-rack-4uqZBPTEJaU
+
+vino-cata.jpg — Declan Sun, “A bucket filled with lots of bottles of wine”
+https://unsplash.com/photos/a-bucket-filled-with-lots-of-bottles-of-wine-AsWtRAOf6v8
+
+vino-botella-copa.jpg — Cody Chan, “Green glass bottle beside clear wine glass”
+https://unsplash.com/photos/green-glass-bottle-beside-clear-wine-glass-2juAjLZqvGU

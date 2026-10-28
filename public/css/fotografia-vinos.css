@@ -1,0 +1,17 @@
+/* Fotografías reales de apoyo y prioridad para las fotos exactas subidas en Administración. */
+.category-card{min-height:225px;padding-top:132px}
+.category-number{z-index:2;padding:4px 7px;background:#fff9e9dc}
+.category-art-img{position:absolute;inset:0 0 auto;width:100%;height:112px;border:0;border-radius:0;object-fit:cover;box-shadow:none;transition:transform .3s}
+.category-card:hover .category-art-img{transform:scale(1.035)}
+.catalog-hero-photo{position:relative;flex:0 0 clamp(255px,28vw,350px);height:205px;margin:0;overflow:hidden;border:7px solid #fff9e8;box-shadow:10px 10px 0 #d8bd6d}
+.catalog-hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 48%}
+.catalog-hero-photo:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(0deg,#251813b8,transparent);pointer-events:none}
+.catalog-hero-photo figcaption{position:absolute;z-index:1;right:13px;bottom:12px;left:13px;display:flex;justify-content:space-between;align-items:center;color:#fff8e7;font:italic 16px var(--serif)}
+.catalog-hero-photo figcaption span{color:#f2ce75;font-style:normal}
+.featured-image>img,.catalog-card-image>img{width:100%;height:100%;object-fit:cover;padding:0;transition:transform .25s}
+.featured-card:hover .featured-image>img,.catalog-card:hover .catalog-card-image>img{transform:scale(1.04)}
+.illustrative-label{position:absolute;left:12px;bottom:12px;padding:6px 8px;background:#fff9e9ed;color:#4c392f;font-size:8px;font-weight:800;letter-spacing:.04em;box-shadow:0 2px 8px #21191420}
+.catalog-card{overflow:hidden;border:1px solid #ddd1bb;background:#fffdf7;transition:transform .2s,box-shadow .2s;animation:card-in .42s both;animation-delay:calc(var(--card-order,0)*35ms)}
+.catalog-card:hover{transform:translateY(-4px);box-shadow:0 13px 25px #38251e1c}
+.catalog-card[hidden]{display:none}
+@media(max-width:700px){.category-card{min-height:195px;padding:101px 12px 13px}.category-art-img{inset:0 0 auto;width:100%;height:86px;border:0;border-radius:0}.catalog-hero{align-items:stretch;flex-direction:column;gap:20px}.catalog-hero-photo{flex:0 0 auto;width:100%;height:165px}.catalog-hero-photo figcaption{font-size:14px}}

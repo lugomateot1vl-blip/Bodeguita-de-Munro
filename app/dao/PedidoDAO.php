@@ -7,6 +7,7 @@ final class PedidoDAO
 
     public function crear(array $cliente, array $items): int
     {
+        // Se bloquea el stock y se guardan pedido, renglones y descuento en una sola transacción.
         $this->db->beginTransaction();
         try {
             $total = 0.0;

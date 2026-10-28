@@ -1,0 +1,28 @@
+.pagina-cuenta{min-height:min(690px,calc(100vh - 195px));display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,.82fr);align-items:center;gap:clamp(35px,8vw,115px);padding:72px max(7%,calc((100% - 1120px)/2));background:var(--cream)}
+.introduccion-cuenta{position:relative;max-width:570px;padding:30px 0}
+.introduccion-cuenta .eyebrow{color:var(--wine);font-size:10px;font-weight:800;letter-spacing:.18em}
+.introduccion-cuenta h1{margin:13px 0 18px;color:var(--wine-dark);font:600 clamp(44px,6vw,76px)/.99 var(--serif);letter-spacing:-.055em}
+.introduccion-cuenta h1 em{color:var(--orange);font-weight:500}
+.introduccion-cuenta>p:not(.eyebrow){max-width:440px;color:#554a3c;font-size:15px;line-height:1.8}
+.adorno-cuenta{display:inline-grid;place-items:center;width:56px;height:56px;margin-top:25px;border:1px solid #cba74f;border-radius:50%;color:var(--orange);font-size:27px}
+.tarjeta-cuenta{width:100%;max-width:480px;justify-self:end;padding:clamp(25px,4vw,42px);border:1px solid #dfd0ae;background:var(--paper);box-shadow:0 18px 50px #51361812}
+.navegacion-cuenta{display:flex;gap:22px;margin:0 0 25px;border-bottom:1px solid var(--line)}
+.navegacion-cuenta a{position:relative;padding:0 0 12px;color:var(--muted);font-size:12px;font-weight:800;text-decoration:none}
+.navegacion-cuenta a.active{color:var(--wine)}
+.navegacion-cuenta a.active:after{position:absolute;right:0;bottom:-1px;left:0;height:3px;background:var(--orange);content:""}
+.tarjeta-cuenta h2{margin:0;color:var(--wine-dark);font:600 clamp(26px,3vw,34px)/1.12 var(--serif)}
+.texto-cuenta{margin:9px 0 22px;color:var(--muted);font-size:12px;line-height:1.7}
+.formulario-cuenta{display:grid;gap:15px}
+.formulario-cuenta>label:not(.confirmacion-edad){display:grid;gap:6px;color:var(--ink);font-size:11px;font-weight:800}
+.formulario-cuenta input:not([type=checkbox]){width:100%;min-height:46px;padding:10px 12px;border:1px solid #d6c8ad;background:white;color:#28251f;font-size:13px}
+.formulario-cuenta input:focus{border-color:var(--orange)}
+.formulario-cuenta .confirmacion-edad{display:flex;align-items:center;gap:9px;color:#504537;font-size:11px}
+.confirmacion-edad input{width:17px;height:17px;accent-color:var(--wine)}
+.boton-cuenta{width:100%;justify-content:center;min-height:47px;margin-top:4px;border:0;cursor:pointer}
+.nota-cuenta{margin:20px 0 0;padding-top:15px;border-top:1px solid var(--line);color:var(--muted);font-size:10px;line-height:1.7}
+.aviso-cuenta{margin:0 0 18px;padding:12px 14px;border:1px solid #d8aaa0;background:#f8e5df;color:#80392f;font-size:12px;line-height:1.5}
+.datos-cuenta{display:grid;gap:8px;margin:18px 0 25px;padding:15px;border:1px solid var(--line);color:var(--muted);font-size:12px}
+.salida-cuenta{margin-top:17px;text-align:center}
+.salida-cuenta button{border:0;background:none;color:var(--wine);font-size:11px;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:850px){.pagina-cuenta{grid-template-columns:1fr 1fr;gap:30px;padding-right:6%;padding-left:6%}.introduccion-cuenta h1{font-size:clamp(40px,6vw,60px)}}
+@media(max-width:650px){.pagina-cuenta{min-height:0;grid-template-columns:1fr;gap:5px;padding:44px 6% 55px}.introduccion-cuenta{padding:5px 0 12px}.introduccion-cuenta h1{font-size:clamp(42px,12vw,60px)}.introduccion-cuenta>p:not(.eyebrow){font-size:13px}.adorno-cuenta{display:none}.tarjeta-cuenta{justify-self:stretch;max-width:none;padding:25px 21px}}
