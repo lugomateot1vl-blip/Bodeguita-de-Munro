@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-require_once __DIR__ . '/app/config/Conexion.php';
-require_once __DIR__ . '/app/helpers/funciones.php';
-require_once __DIR__ . '/app/dao/BebidaDAO.php';
+require_once __DIR__ . '/../app/config/Conexion.php';
+require_once __DIR__ . '/../app/helpers/funciones.php';
+require_once __DIR__ . '/../app/dao/BebidaDAO.php';
 require_once __DIR__ . '/partials/imagen-bebida.php';
 $destacadas = [];
 try {

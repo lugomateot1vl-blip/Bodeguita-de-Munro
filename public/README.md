@@ -9,11 +9,11 @@ Sitio PHP para una vinoteca de barrio: catálogo de bebidas, selección de produ
 
 ## Instalación local
 
-1. Copiá el contenido de esta carpeta en `C:\xampp\htdocs\Bodeguita De Munro`.
+1. Colocá la carpeta del repositorio en `C:\xampp\htdocs\Bodeguita De Munro`.
 2. Iniciá Apache y MySQL desde XAMPP.
-3. Importá `database/bodeguita_munro.sql` con phpMyAdmin. Crea la base `bodeguita_munro` y agrega bebidas de ejemplo.
-4. Si tu usuario de MySQL no es el predeterminado de XAMPP, ajustá `app/config/Conexion.php` o configurá las variables `BODEGUITA_DB_HOST`, `BODEGUITA_DB_NAME`, `BODEGUITA_DB_USER` y `BODEGUITA_DB_PASS`.
-5. Visitá `http://localhost/Bodeguita%20De%20Munro/`.
+3. Importá `../database/bodeguita_munro.sql` con phpMyAdmin. Crea la base `bodeguita_munro` y agrega bebidas de ejemplo.
+4. Si tu usuario de MySQL no es el predeterminado de XAMPP, ajustá `../app/config/Conexion.php` o configurá las variables `BODEGUITA_DB_HOST`, `BODEGUITA_DB_NAME`, `BODEGUITA_DB_USER` y `BODEGUITA_DB_PASS`.
+5. Visitá `http://localhost/Bodeguita%20De%20Munro/public/`.
 6. El enlace de administración abre `admin.php`. En la primera visita, creá un usuario y una contraseña privada de al menos 10 caracteres.
 
 Los productos, precios y existencias iniciales son de muestra; actualizalos desde el panel antes de usar el sitio con inventario real.
@@ -34,12 +34,9 @@ El carrito se conserva en el navegador. Al confirmar, el servidor valida el stoc
 
 ```text
 app/                       Conexión, funciones y consultas
-database/                    Base de datos de instalación
-partials/                  Encabezado, pie y autenticación
-css/                       Estilos del sitio
-js/                        Interacciones y carrito
-media/                     Imágenes
-*.php                      Páginas del sitio
+database/                  Base de datos de instalación
+partials/                  Archivos compartidos de la estructura original
+public/                    Sitio web, páginas y recursos estáticos
 ```
 
 Las imágenes de referencia se usan para inspirar la estética y mostrar el local. Confirmá los permisos de uso antes de publicar el sitio abiertamente.

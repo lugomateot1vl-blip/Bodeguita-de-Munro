@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-require_once __DIR__ . '/app/config/Conexion.php';require_once __DIR__ . '/app/helpers/funciones.php';require_once __DIR__ . '/app/dao/BebidaDAO.php';require_once __DIR__ . '/app/dao/PedidoDAO.php';
+require_once __DIR__ . '/../app/config/Conexion.php';require_once __DIR__ . '/../app/helpers/funciones.php';require_once __DIR__ . '/../app/dao/BebidaDAO.php';require_once __DIR__ . '/../app/dao/PedidoDAO.php';
 $db=Conexion::obtener();$mensaje='';$error='';$hayAdmin=(int)$db->query('SELECT COUNT(*) FROM administradores')->fetchColumn()>0;
 if($_SERVER['REQUEST_METHOD']==='POST'){
     validar_csrf();$accion=$_POST['accion']??'';

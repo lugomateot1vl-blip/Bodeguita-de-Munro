@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/app/helpers/funciones.php';
+require_once __DIR__ . '/../app/helpers/funciones.php';
 $paginaActiva='bodeguita';$tituloPagina='La Bodeguita';require __DIR__.'/partials/header.php';
 ?>
 <section class="story-hero page-hero"><p class="eyebrow">NUESTRA CASA · MUNRO</p><h1>Una vinoteca de barrio,<br><em>con mucho para contar.</em></h1><p>Vinos, recomendaciones y una charla que se alarga un poquito más.</p></section>
