@@ -1,5 +1,0 @@
-<?php $paginaActiva='bodeguita';$tituloPagina='La Bodeguita';require __DIR__.'/partials/header.php'; ?>
-<section class="subpage-hero story-hero"><p class="eyebrow-light">02 · NUESTRA CASA</p><h1>El barrio tiene<br>su <em>propia bodega.</em></h1><p>Un espacio para encontrar una botella rica y sentirse como en casa.</p></section>
-<section class="story-page"><div class="story-photo" role="img" aria-label="Estanterías de vinos de la Bodeguita"></div><div class="story-text"><p class="eyebrow">UN LUGAR PARA VOLVER</p><h2>Las mejores charlas<br>empiezan con <em>“¿qué llevo?”</em></h2><p>Nos gustan las etiquetas con algo para contar, las recomendaciones sin vueltas y esas charlas que empiezan con una pregunta sencilla y terminan en una sobremesa larga.</p><p>Acercate a conocer la tienda. Hay vinos para distintos gustos y momentos, y siempre estamos para ayudarte a elegir.</p><a class="text-button" href="visitanos.php">Vení a saludarnos ↗</a></div></section>
-<section class="quote-band"><span>“</span><p>Una buena recomendación también se comparte.</p><small>LA BODEGUITA DE MUNRO</small></section>
-<?php require __DIR__.'/partials/footer.php'; ?>

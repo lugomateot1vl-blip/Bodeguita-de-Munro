@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../app/helpers/funciones.php';
+require_once __DIR__ . '/app/helpers/funciones.php';
 $paginaActiva='visitanos';$tituloPagina='Cómo llegar';require __DIR__.'/partials/header.php';
 ?>
 <section class="visit-hero page-hero"><p class="eyebrow">VENÍ A CONOCERNOS</p><h1>Tu próxima copa<br>puede empezar <em>acá.</em></h1><p>La Bodeguita de Munro · Buenos Aires</p></section>

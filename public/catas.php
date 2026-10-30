@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../app/helpers/funciones.php';
+require_once __DIR__ . '/app/helpers/funciones.php';
 $paginaActiva='catas';$tituloPagina='Catas y encuentros';require __DIR__.'/partials/header.php';
 ?>
 <section class="tasting-hero page-hero"><p class="eyebrow">NOS VEMOS ALREDEDOR DE UNA COPA</p><h1>Vinos nuevos,<br><em>mesa compartida.</em></h1><p>Probamos, conocemos y brindamos en la Bodeguita.</p></section>

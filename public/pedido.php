@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-require_once __DIR__ . '/../app/config/Conexion.php';
-require_once __DIR__ . '/../app/helpers/funciones.php';
-require_once __DIR__ . '/../app/dao/PedidoDAO.php';
+require_once __DIR__ . '/app/config/Conexion.php';
+require_once __DIR__ . '/app/helpers/funciones.php';
+require_once __DIR__ . '/app/dao/PedidoDAO.php';
 require_once __DIR__ . '/partials/cliente-auth.php';
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') { header('Location: index.php'); exit; }
 // La sesión se valida en el servidor; el control del catálogo solo mejora la experiencia visual.
